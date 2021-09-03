@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+.main-content{
+    background-image: url(./images/banner.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.main-content img{
+    margin-left: 50%;
+}
+.head{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 80px;
+}
+.head h1, .words h1{
+    color: white;
+   font-size: 5em;
+}
+.content{
+    color: black;
+    background-color: white;
+    width: 50%;
+    height: 120px;
+    margin-left: 30px;
+
+}.content p{
+    text-align: justify;
+    padding: 10px;
+    margin: 20px 16px ;
+}
+.words{
+    background-color: rgb(231, 192, 192);
+    width: 100%;
+    height: 100%;
+    
+}
+.words blockquote{
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    width: 70%;
+    font-weight: 600;
+    
+}
+.words p{
+    color: white;
+    width: 40%;
+    margin-top: 20px;
+    line-height: 20px;
+  
+}
+.words-content{
+    padding: 60px;
+    margin-left: 40px;
+
+}
+.gallery .row{
+    width: 100%;
+    display: flex;
+ 
+}
+.gallery .row2{
+    display: flex;
+}
+.gallery img{
+    width: 600px;
+    height: 500px;
+}
+
+.forms{
+    margin-top: 80px;
+    text-align: center;
+}
+.forms input{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgb(231, 192, 192);
+    border-radius: 50px;
+}
+.forms button, .product button{
+    width: 120px;
+    padding: 10px;
+    border: 1px solid rgb(231, 192, 192);
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+.words h2{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+.words h4{
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* ABOUT CSS */
+
+.about{
+    display: flex;
+}
+.about-left-col{
+    margin:50px 90px;
+}
+.about-right-col p{
+    text-align: justify;
+    width: 60%;
+    margin-top: 100px;
+    line-height: 20px;
+}
+.about h3{
+    color:rgb(179, 145, 145) ;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+/* collection css */
+
+.row-collection{
+    display: flex;
+    margin-top: 30px;
+}
+.row-collection img{
+    width: 500px;
+    height: 300px;
+    padding: 8px;
+}
+.arrow{
+     margin-top: 20px;
+     text-align: center;
+}
+.product{
+    display: flex;
+    padding: 100px;
+}
+.product img{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+}
+.product-content{
+    margin: 70px 40px;
+}
+.product-content h3{
+    font-weight: 200;
+}
+.product-content h4{
+    margin-top: 20px;
+}
+.product-content p{
+    margin-top: 20px;
+}
+.product-content button{
+    margin-top: 20px;
+}
+
+/* subscription css */
+
+.subscribe::before{
+    content: "";
+    background-color: rgba(233, 203, 203, 0.904) ;
+    display: block;
+    width: 400px;
+    height: 6px;
+    margin: 10px auto;
+}
+.subscription{
+    display: flex;
+}
+.subscribe-left-col img{
+    width: 600px;
+    height: 500px;
+}
+.subscribe-right-col{
+    margin: 70px 40px;
+    text-align: center;
+}
+.subscribe h1{
+    font-size: 3em;
+}
+
+.subscribe input{
+    width: 200px;
+    padding: px;
+    margin-top: 40px;
+}
+.subscribe button{
+    width: 80px;
+    padding: 10px;
+    border: 1px solid rgb(231, 192, 192);
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.social-icons img{
+    padding: 10px;
+}
+.social-icons{
+    margin: 30px;
+}
+
+
